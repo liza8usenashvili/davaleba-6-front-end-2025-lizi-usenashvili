@@ -1,6 +1,6 @@
 * {
-	margin: none;
-	padding: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
@@ -31,13 +31,22 @@ body {
 	vertical-align: top;
 }
 
+nav {
+	position: fixed;
+	top: 0px;
+	width: 1440px;
+	height: 60px;
+	background-color: #f2f2f2;
+	z-index: 20;
+}
+
 #tranding {
 	width: 120px;
 	height: 28px;
 	font-size:24px;
 	font-weight: 700;
 	font-family: "Roboto", sans-serif;
-	margin-top: 76px;
+	margin-top: 102px;
 	margin-bottom: 27px;
 
 }
@@ -129,7 +138,6 @@ main > h1 {
 #photos  img {
 	width: 758px;
 	height: 430px;
-	margin-left: 138px;
 	margin-top: 30px;
 	border-radius: 5px;
 }
@@ -137,15 +145,93 @@ main > h1 {
 #photos1 img {
 	width: 362px;
 	height: 212px;
-	margin-right: 45px;
 	margin-bottom: 98px;
 	border-radius: 5px;
 }
 
 #photos {
 	display: inline-block;
+	width: 758px;
+	height: 902px;
+	margin-left: 138px;
+	vertical-align: top;
 }
 
 #photos1 {
 	display: inline-block;
+	width: 362px;
+	height: 832px;
+	margin-left: 45px;
+	margin-top: 30px;
+	margin-bottom: 101px;
+	vertical-align: top;
+}
+
+
+#foot {
+	width: 1519px;
+	height: 201px;
+	background-color: #243043;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.bolo  {
+	color: #818687;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "Roboto", sans-serif;
+	margin-top: 14px;
+}
+
+#span1 {
+	width: 54px;
+	height: 98px;
+	display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    padding-left: 137px;
+    vertical-align: top;
+}
+
+#span2 {
+	width: 51px;
+	height: 98px;
+	display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    padding-left: 75px;
+    vertical-align: top;
+}
+
+#span3 {
+	width: 70px;
+	height: 98px;
+	display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    padding-left: 100px;
+    vertical-align: top;
+}
+
+#last {
+	width: 249px;
+	height: 14px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 12px;
+	font-family: "Roboto", sans-serif;
+	margin-left: 112px;
+	padding-top: 59px;
+	position: absolute;
+	vertical-align: top;
+}
+
+#owl {
+	width: 38px;
+	height: 40px;
+	padding-top: 58px;
+	margin-left: 777px;
+	vertical-align: top;
+	position: absolute;
 }
